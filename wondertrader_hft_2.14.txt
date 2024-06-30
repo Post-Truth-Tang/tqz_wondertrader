@@ -1,0 +1,37 @@
+1. before re configuration；
+
+2. update a log bug about order comment；
+
+3. update hft strategy，only re send close order when midPrice update；
+
+4. add check cancel order condition and check send entrust conditison；
+
+5. reset cancel_limits_count when strategy init；
+
+6. delete lock position type；
+
+7. modify strategies.json params；
+
+8. delete some logs in HftStraBaseCtx.cpp；
+
+9. optimize judge condition of trading time；
+
+10. add market lower&higher limit condition when entrust；
+
+11. add market tick time to trade_log；
+
+12. add volScale & priceTick to trade_log；
+
+13. delete minute log；
+
+14. update a hft bug (can not re send order)；
+
+15. add ma hft alpha；
+
+16. reset module of hft alpha & add macd hft alpha；
+
+17. add diff、last traded quantity、book hft alpha；
+
+18. merge alpha to hft strategy；
+
+19. add time slice when market making；
